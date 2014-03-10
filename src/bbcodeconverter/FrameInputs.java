@@ -1,9 +1,12 @@
 package bbcodeconverter;
 import javax.swing.*;
 import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
 
 public class FrameInputs extends JFrame
 {
+	protected static final String headerMessage = "Welcome to EoFF's BBCode Converter!";
 	protected FrameInputs()
 	{
 		setTitle("BB-To-HTML Converter");
@@ -19,17 +22,37 @@ public class FrameInputs extends JFrame
 	  {
 
 	    assert SwingUtilities.isEventDispatchThread();
-	    
-		JLabel newLine;
-	    JTextField inputFile = new JTextField(20);
-	    FlowLayout header = new FlowLayout(FlowLayout.CENTER);
+	    // Set the layout flow
 	    FlowLayout textInputField = new FlowLayout(FlowLayout.LEFT);
-	    
-	    setLayout(header);
-	    add(new JLabel("Welcome to EoFF's BBCode Converter!"));
 	    setLayout(textInputField);
-	    add(inputFile);
+	    
+	    addHeaderPane();
+	   
 	  }
+	private void addHeaderPane()
+	{
+		 //Create Header
+	    JLabel header = new JLabel(headerMessage);
+	    
+		 //Create input file text fields
+	    JTextField inputFile = new JTextField(20); 
+	    
+	    //Create Pane for file input
+	    JPanel textPane = new JPanel();
+	    
+	    //Create Grid Layout
+        GridBagLayout gridbag = new GridBagLayout();
+        GridBagConstraints c = new GridBagConstraints();
+        c.gridwidth = GridBagConstraints.REMAINDER; 
+        c.anchor = GridBagConstraints.WEST;
+        
+        //Setup and add textPane
+	    textPane.setLayout(gridbag);
+	    textPane.add(header, c);
+	    textPane.add(inputFile, c);
+	    textPane.setBorder(BorderFactory.createEmptyBorder(5,5,5,5));
+	    add(textPane);
+	}
 	 
 	  /**
 	   * @param args not used
