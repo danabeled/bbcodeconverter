@@ -5,9 +5,8 @@ import re
 DIRECTORY = os.getcwd()
 
 filename = "ffxiiiguide"
-
-GLOBAL_TAGS = []
-
+BB_TAGS = ["B", "I", "U"]
+HTML_TAGS = ["b", "i", "u"]
 bbFile = open(filename+".txt", "r")
 
 ##########################################################################################
@@ -28,6 +27,22 @@ def replaceBBTag(BBTag, HTMLTag, line):
 	line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
 	return line
 
+##########################################################################################
+#                                                                                            
+#                                                                                                
+#                                                                                                
+#   **  removeTagInstances    **                                                                                     
+#  
+# Arguments: 	BB Tag Contents, HTML Code, Line Information
+# Function: 	Converts any tags with certain BB Code information to input HTML.
+# Returns: 		Updated Line information
+# 
+#                                                                                                  
+##########################################################################################
+
+def removeTagInstances(BBTag, HTMLTag, line):
+
+
 print bbFile
 i = 0
 htmlCode = []
@@ -40,7 +55,10 @@ paragraphTag = 0
 htmlFile = open(filename+".html","w")
 for line in htmlCode:
 	style = ""
-	line = replaceBBTag("B","b",line)
+	i = 0
+	for tag in BB_TAGS:
+		line = replaceBBTag(tag,HTML_TAGS[i],line)
+		i = i + 1
 	if "[COLOR=#800080]" in line:
 		style = style + "color:purple "
 		paragraphTag = 1
