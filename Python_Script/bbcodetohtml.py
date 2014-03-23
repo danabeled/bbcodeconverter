@@ -6,6 +6,8 @@ DIRECTORY = os.getcwd()
 
 filename = "ffxiiiguide"
 
+GLOBAL_TAGS = []
+
 bbFile = open(filename+".txt", "r")
 
 ##########################################################################################
