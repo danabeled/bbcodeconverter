@@ -8,6 +8,24 @@ filename = "ffxiiiguide"
 
 bbFile = open(filename+".txt", "r")
 
+##########################################################################################
+#                                                                                            
+#                                                                                                
+#                                                                                                
+#   **  replaceBBTag    **                                                                                     
+#  
+# Arguments: 	BB Tag Contents, HTML Code, Line Information
+# Function: 	Converts any tags with certain BB Code information to input HTML.
+# Returns: 		Updated Line information
+# 
+#                                                                                                  
+##########################################################################################
+
+def replaceBBTag(BBTag, HTMLTag, line):
+	line = line.replace("["+BBTag+"]","<"+HTMLTag+">")
+	line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
+	return line
+
 print bbFile
 i = 0
 htmlCode = []
@@ -20,8 +38,7 @@ paragraphTag = 0
 htmlFile = open(filename+".html","w")
 for line in htmlCode:
 	style = ""
-	line = line.replace("[B]","<b>")
-	line = line.replace("[/B]","</b>")
+	line = replaceBBTag("B","b",line)
 	if "[COLOR=#800080]" in line:
 		style = style + "color:purple "
 		paragraphTag = 1
@@ -41,3 +58,4 @@ for line in htmlCode:
 		line = line + "<br>"
 	htmlFile.write(line)
 #print htmlCode
+
