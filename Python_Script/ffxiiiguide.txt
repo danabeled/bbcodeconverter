@@ -741,7 +741,7 @@ HP:20250
 MA:0   
 ST:125
 Stag:500%
- 
+CP:??
  
 Crawler                                  
 HP:2363                                                         
@@ -1291,7 +1291,7 @@ CP:320
 Flanitor
 HP:3780
 MA:750
-ST;100
+ST:100
 Stag:115%
 CP:64
  
@@ -1421,7 +1421,7 @@ HP:50400
 MA:100
 ST:0
 Stag: 150%
-CP 0
+CP: 0
  
 [B]Left and Right Pauldron[/B]
 HP: 50400
@@ -1678,7 +1678,7 @@ Gorgonpsid-Fight
 HP:306000
 MA:93
 ST:225
-Stag;160%
+Stag:160%
 CP:440
  
 Megistitberian-RUN!
@@ -1747,7 +1747,7 @@ CP:910
 Adamanchelid-RUN!
 HP:956250
 MA:861
-ST1292
+ST:1292
 Stag:450%
 CP:4550
  
@@ -2323,7 +2323,7 @@ HP:34175
 MA:1367
 ST:100
 Stag:260%
-CP630
+CP:630
  
 [B]Treasures[/B]
  
@@ -2443,7 +2443,7 @@ CP: 3900
 Adamanchelid
 HP:956250
 MA:861
-ST1292
+ST:1292
 Stag:450%
 CP:4550
  
@@ -2520,7 +2520,7 @@ CP:780
 Sanctum Archangel
 HP:52800
 MA:1121
-STl1121
+ST:1121
 Stag:130%
 CP: 845
  

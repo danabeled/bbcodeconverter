@@ -68,7 +68,13 @@ def createEnemyTable(lineNum, htmlCode):
 			htmlCode[lineNum].replace("[/"+BBTag+"]","")
 			htmlCode[lineNum] = "[/"+BBTag+"]" + htmlCode[lineNum]
 	for statNum in range(NUM_OF_STATS):
-		htmlCode[lineNum+statNum+1] = "<tr><td class=\"content_headerrow\">" + htmlCode[lineNum+statNum+1] + "</td></tr>"
+		rows = htmlCode[lineNum+statNum+1].split(DELIMITER)
+		try:
+			newLine = "<tr><td class=\"content_headerrow\">" + rows[0].strip() + "</td>" + " <td class=\"content_headerrow\">" + rows[1].strip() + "</td></tr>"
+			htmlCode[lineNum+statNum+1] = newLine
+		except:
+			if len(rows) == 1:
+				print "Unable to break data in lines " + str(lineNum+statNum+2)
 	return htmlCode
 
 
