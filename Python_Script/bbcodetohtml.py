@@ -14,15 +14,15 @@ HTML_TAGS = ["b", "i", "u"]
 TABLE_EXISTS = 1
 
 ##### IF TABLE EXISTS CHANGE THESE #######
-ENEMY_STAT_STARTING_LINE = 4
-ENEMY_STAT_ENDING_LINE = 8
+TABLE_STAT_STARTING_LINE = 4
+TABLE_STAT_ENDING_LINE = 8
 DELIMITER = ":"
 
 ##### DON'T TOUCH ########################
 bbFile = open(filename+".txt", "r")
 ENEMY_STATS = []
 DIRECTORY = os.getcwd()
-NUM_OF_STATS = ENEMY_STAT_ENDING_LINE - ENEMY_STAT_STARTING_LINE + 1
+NUM_OF_STATS = TABLE_STAT_ENDING_LINE - TABLE_STAT_STARTING_LINE + 1
 
 ##########################################################################################
 #                                                                                            
@@ -39,7 +39,7 @@ NUM_OF_STATS = ENEMY_STAT_ENDING_LINE - ENEMY_STAT_STARTING_LINE + 1
 def readEnemyStats(document):
 	for statNum in range(NUM_OF_STATS):
 		#Appended the stat in the following format ABBRV, FULL_NAME to the stats list
-		ENEMY_STATS.append(document[statNum+ENEMY_STAT_STARTING_LINE-1].split(DELIMITER))
+		ENEMY_STATS.append(document[statNum+TABLE_STAT_STARTING_LINE-1].split(DELIMITER))
 
 		#Remove all white space
 		ENEMY_STATS[statNum][0] = ENEMY_STATS[statNum][0].strip()
@@ -52,7 +52,7 @@ def readEnemyStats(document):
 #                                                                                            
 #                                                                                                
 #                                                                                                
-#   **  createEnemyTable    **                                                                                     
+#   **  createTable    **                                                                                     
 #  
 # Arguments: 	Line Number, htmlCode
 # Function: 	Creates Enemy Table
@@ -60,7 +60,7 @@ def readEnemyStats(document):
 # 
 #                                                                                                  
 ##########################################################################################
-def createEnemyTable(lineNum, htmlCode):
+def createTable(lineNum, htmlCode):
 	htmlCode[lineNum] = "<table class=\"content_infotable\"><tr><td class=\"content_headerrow\" colspan="+str(len(ENEMY_STATS)) + ">" + htmlCode[lineNum]
 	htmlCode[lineNum] = htmlCode[lineNum] + "</td></tr>"
 	for BBTag in BB_TAGS:
@@ -76,12 +76,6 @@ def createEnemyTable(lineNum, htmlCode):
 			if len(rows) == 1:
 				print "Unable to break data in lines " + str(lineNum+statNum+2)
 	return htmlCode
-
-
-	# <tr>
-	# 	<td class="content_headerrow" width="145">Weapon</td>
-	# </tr>
-
 
 ##########################################################################################
 #                                                                                            
@@ -118,6 +112,7 @@ def removeColorTagInstances(line):
 	if "[COLOR=#" in line:
 		tagIndex = line.find("[COLOR=#")
 		line = line[:tagIndex] + line[tagIndex+15:]
+	if "[/COLOR]" in line: 
 		line = line.replace("[/COLOR]","")
 	return line
 
@@ -138,6 +133,7 @@ def removeSizeTagInstances(line):
 	if "[SIZE=" in line:
 		tagIndex = line.find("[SIZE=")
 		line = line[:tagIndex] + line[tagIndex+8:]
+	if "[/SIZE]" in line:
 		line = line.replace("[/SIZE]","")
 	return line
 
@@ -155,8 +151,11 @@ def removeSizeTagInstances(line):
 ##########################################################################################
 
 def endOfLineHandling(line):
+	#If many characters in the line, assume a paragraph has been written and add paragraph tags
 	if len(line) >= 100:
 		line = "<p>"+str(line)+"</p>" #Add code to give line a paragraph tag
+
+	#otherwise assume that it was just a small line break and add a break tag
 	else:
 		line = str(line) + "<br>"
 	return line
@@ -171,13 +170,14 @@ bbFile.close()
 paragraphTag = 0
 htmlFile = open(filename+".html","w")
 lineNum = 0
-readEnemyStats(htmlCode)
+if TABLE_EXISTS == 1:
+	readEnemyStats(htmlCode)
 table = 0
 for line in htmlCode:
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
 	if lineNum + 1 < len(htmlCode):
 		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
-			htmlCode = createEnemyTable(lineNum, htmlCode)
+			htmlCode = createTable(lineNum, htmlCode)
 			line = htmlCode[lineNum]
 			table = 1
 	# Increment Line Counter
