@@ -1,16 +1,15 @@
 [COLOR=#800080][B]Final Fantasy XIII-Guide By Ed[/B][/COLOR]
- 
-Reading stats
-Hp- Hit Points
+
+Reading Stats
+Hp: Hit Points
 Ma: Magic
 St: Strength
 Stag: Stagger
-CP: Crystal Points
- 
+CP: Crystal Points 
  
 [COLOR=#ffd700][SIZE=4][B]Chapter one: hanging edge[/B][/SIZE][/COLOR]
  
-[B]Random encounter baddies[/B]
+[B]Encounters[/B]
  
 PISCOM Warden                  
 Hp: 84                                   
@@ -970,7 +969,7 @@ Also having your Crystarium maxed out for this point in the game is a great way 
 Enki and Enlil[/B]
  
 [B]Enki [/B]                          
-Hp:-75600                
+Hp:75600                
 MA:171                     
 ST:133                       
 Stag:150%                
