@@ -183,16 +183,18 @@ lineNum = 0
 if TABLE_EXISTS == 1:
 	readStats(htmlCode)
 table = 0
-
+count = 0
 #Fix each line of BBCode into HTML Code
 for line in htmlCode:
-	print line
+	count = count + 1
+	print str(count) + " " + line
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
 	if lineNum + 1 < len(htmlCode):
 		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
 			htmlCode = createTable(lineNum, htmlCode)
 			line = htmlCode[lineNum]
 			table = 1
+			tableCounter=0
 	# Increment Line Counter
 	lineNum = lineNum + 1
 
@@ -208,11 +210,12 @@ for line in htmlCode:
 
 	#Handle end of line adding paragraph tag or line break where necessary
 	if table == 0:
-		tableCounter=1
 		line = endOfLineHandling(line)
 	else:
 		tableCounter=tableCounter+1
-		if tableCounter == NUM_OF_STATS:
+		print "NUM OF STATS: " + str(NUM_OF_STATS+1)
+		print "TABLE COUNTER: " + str(tableCounter)
+		if tableCounter == NUM_OF_STATS+1:
 			table=0
 
 	#Write New Line to File
