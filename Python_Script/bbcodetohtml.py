@@ -186,6 +186,7 @@ table = 0
 
 #Fix each line of BBCode into HTML Code
 for line in htmlCode:
+	print line
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
 	if lineNum + 1 < len(htmlCode):
 		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
