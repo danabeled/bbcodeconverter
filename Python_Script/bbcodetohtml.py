@@ -28,7 +28,7 @@ NUM_OF_STATS = TABLE_STAT_ENDING_LINE - TABLE_STAT_STARTING_LINE + 1
 #                                                                                            
 #                                                                                                
 #                                                                                                
-#   **  readEnemyStats    **                                                                                     
+#   **  readStats    **                                                                                     
 #  
 # Arguments: 	Read info
 # Function: 	Reads Info for enemy stats to create tables off of
@@ -36,7 +36,7 @@ NUM_OF_STATS = TABLE_STAT_ENDING_LINE - TABLE_STAT_STARTING_LINE + 1
 # 
 #                                                                                                  
 ##########################################################################################
-def readEnemyStats(document):
+def readStats(document):
 	for statNum in range(NUM_OF_STATS):
 		#Appended the stat in the following format ABBRV, FULL_NAME to the stats list
 		ENEMY_STATS.append(document[statNum+TABLE_STAT_STARTING_LINE-1].split(DELIMITER))
@@ -61,8 +61,8 @@ def readEnemyStats(document):
 #                                                                                                  
 ##########################################################################################
 def createTable(lineNum, htmlCode):
-	htmlCode[lineNum] = "<table class=\"content_infotable\"><tr><td class=\"content_headerrow\" colspan="+str(len(ENEMY_STATS)) + ">" + htmlCode[lineNum]
-	htmlCode[lineNum] = htmlCode[lineNum] + "</td></tr>"
+	htmlCode[lineNum] = "<table class=\"content_infotable\">\n	<tr>\n		<td class=\"content_headerrow\" colspan="+str(len(ENEMY_STATS)) + ">" + htmlCode[lineNum][:len(htmlCode[lineNum])-1]
+	htmlCode[lineNum] = htmlCode[lineNum] + "</td>\n	</tr>"
 	for BBTag in BB_TAGS:
 		if "[/"+BBTag+"]" in htmlCode[lineNum]:
 			htmlCode[lineNum].replace("[/"+BBTag+"]","")
@@ -70,7 +70,7 @@ def createTable(lineNum, htmlCode):
 	for statNum in range(NUM_OF_STATS):
 		rows = htmlCode[lineNum+statNum+1].split(DELIMITER)
 		try:
-			newLine = "<tr><td class=\"content_headerrow\">" + rows[0].strip() + "</td>" + " <td class=\"content_headerrow\">" + rows[1].strip() + "</td></tr>"
+			newLine = "\n	<tr>\n		<td class=\"content_headerrow\">" + rows[0].strip() + "</td>\n" + "		<td class=\"content_headerrow\">" + rows[1].strip() + "</td>\n	</tr>"
 			htmlCode[lineNum+statNum+1] = newLine
 		except:
 			if len(rows) == 1:
@@ -109,9 +109,11 @@ def replaceBBTag(BBTag, HTMLTag, line):
 ##########################################################################################
 
 def removeColorTagInstances(line):
+	#Remove openning tag if it exists
 	if "[COLOR=#" in line:
 		tagIndex = line.find("[COLOR=#")
 		line = line[:tagIndex] + line[tagIndex+15:]
+	#Remove closing tag if it exists
 	if "[/COLOR]" in line: 
 		line = line.replace("[/COLOR]","")
 	return line
@@ -130,9 +132,11 @@ def removeColorTagInstances(line):
 ##########################################################################################
 
 def removeSizeTagInstances(line):
+	#Remove openning tag if it exists
 	if "[SIZE=" in line:
 		tagIndex = line.find("[SIZE=")
 		line = line[:tagIndex] + line[tagIndex+8:]
+	#Remove closing tag if it exists
 	if "[/SIZE]" in line:
 		line = line.replace("[/SIZE]","")
 	return line
@@ -163,16 +167,24 @@ def endOfLineHandling(line):
 
 ######################################## MAIN EXECUTION ########################################
 
+#Initialize the HTML line list
 htmlCode = []
+
+#Read Each line of BBCode from the BB File and write into a structure that will become HTML
 for line in bbFile:
 	htmlCode.append(line)
 bbFile.close()
-paragraphTag = 0
+
+#Read open what will become the HTML File
 htmlFile = open(filename+".html","w")
 lineNum = 0
+
+#Read stats to be read in future tables
 if TABLE_EXISTS == 1:
-	readEnemyStats(htmlCode)
+	readStats(htmlCode)
 table = 0
+
+#Fix each line of BBCode into HTML Code
 for line in htmlCode:
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
 	if lineNum + 1 < len(htmlCode):
