@@ -62,7 +62,7 @@ Cp:Na
  
  
  
-[B]Treasures found:[/B]
+[B]Treasures:[/B]
  
 Potion
 Potion (X2)

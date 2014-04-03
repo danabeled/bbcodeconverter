@@ -1,24 +1,31 @@
-#BBCode to HTML Converter
+####### BBCode to HTML Converter ###############
 import os
 import re
 
-###### CHANGE FILE NAME ##################
+###### CHANGE FILE NAME ########################
 filename = "ffxiiiguide"
 
-
-###### CHANGE BB_TAGS ####################
+###### CHANGE BB_TAGS ##########################
 BB_TAGS = ["B", "I", "U"]
 HTML_TAGS = ["b", "i", "u"]
 
-##### CHECK FOR TABLES ###################
+##### BOOLS FOR STRUCTURES #####################
 TABLE_EXISTS = 1
+LIST_UNORDERED_EXISTS = 1
+LIST_ORDERED_EXISTS = 0
 
-##### IF TABLE EXISTS CHANGE THESE #######
+##### IF TABLE EXISTS CHANGE THESE #############
 TABLE_STAT_STARTING_LINE = 4
 TABLE_STAT_ENDING_LINE = 8
 DELIMITER = ":"
 
-##### DON'T TOUCH ########################
+##### IF UNORDERED LIST EXISTS CHANGE THESE ####
+LIST_UNORDERED_KEYWORD = "Treasures"
+
+##### IF ORDERED LIST EXISTS CHANGE THESE ######
+LIST_ORDERED_KEYWORD = False
+
+##### DON'T TOUCH ##############################
 bbFile = open(filename+".txt", "r")
 ENEMY_STATS = []
 DIRECTORY = os.getcwd()
@@ -193,6 +200,7 @@ for line in htmlCode:
 		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
 			htmlCode = createTable(lineNum, htmlCode)
 			line = htmlCode[lineNum]
+			#New table found, set table boolean to true and counter to zero for paragraph handling
 			table = 1
 			tableCounter=0
 	# Increment Line Counter
@@ -211,7 +219,7 @@ for line in htmlCode:
 	#Handle end of line adding paragraph tag or line break where necessary
 	if table == 0:
 		line = endOfLineHandling(line)
-	else:
+	elif table == 1:
 		tableCounter=tableCounter+1
 		print "NUM OF STATS: " + str(NUM_OF_STATS+1)
 		print "TABLE COUNTER: " + str(tableCounter)
