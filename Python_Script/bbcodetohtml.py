@@ -164,11 +164,11 @@ def removeSizeTagInstances(line):
 def endOfLineHandling(line):
 	#If many characters in the line, assume a paragraph has been written and add paragraph tags
 	if len(line) >= 100:
-		line = "<p>"+str(line)+"</p>" #Add code to give line a paragraph tag
+		line = "<p>"+str(line[:len(htmlCode[lineNum])-1])+"</p>\n" #Add code to give line a paragraph tag
 
 	#otherwise assume that it was just a small line break and add a break tag
 	else:
-		line = str(line) + "<br>"
+		line = str(line[:len(htmlCode[lineNum])-1]) + "<br>\n"
 	return line
 
 
@@ -194,7 +194,6 @@ count = 0
 #Fix each line of BBCode into HTML Code
 for line in htmlCode:
 	count = count + 1
-	print str(count) + " " + line
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
 	if lineNum + 1 < len(htmlCode):
 		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
@@ -203,8 +202,6 @@ for line in htmlCode:
 			#New table found, set table boolean to true and counter to zero for paragraph handling
 			table = 1
 			tableCounter=0
-	# Increment Line Counter
-	lineNum = lineNum + 1
 
 	#Replace BB Code Tags with HTML Tags For line
 	tagNum = 0
@@ -221,10 +218,11 @@ for line in htmlCode:
 		line = endOfLineHandling(line)
 	elif table == 1:
 		tableCounter=tableCounter+1
-		print "NUM OF STATS: " + str(NUM_OF_STATS+1)
-		print "TABLE COUNTER: " + str(tableCounter)
 		if tableCounter == NUM_OF_STATS+1:
 			table=0
 
 	#Write New Line to File
 	htmlFile.write(line)
+
+	# Increment Line Counter before begin handling next line
+	lineNum = lineNum + 1
