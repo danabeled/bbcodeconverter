@@ -6,8 +6,8 @@ import re
 filename = "ffxiiiguide"
 
 ###### CHANGE BB_TAGS ##########################
-BB_TAGS = ["B", "I", "U"]
-HTML_TAGS = ["b", "i", "u"]
+BB_TAGS = ["B", "I", "U", "TD","TR","LIST=1","LIST", "TABLE", "*"]
+HTML_TAGS = ["b", "i", "u","td","tr","ol","ul","table","li"]
 
 ##### BOOLS FOR STRUCTURES #####################
 TABLE_EXISTS = 1
@@ -20,7 +20,7 @@ TABLE_STAT_ENDING_LINE = 8
 DELIMITER = ":"
 
 ##### IF UNORDERED LIST EXISTS CHANGE THESE ####
-LIST_UNORDERED_KEYWORD = "Treasures"
+LIST_UNORDERED_KEYWORD = "treasures"
 
 ##### IF ORDERED LIST EXISTS CHANGE THESE ######
 LIST_ORDERED_KEYWORD = False
@@ -30,6 +30,7 @@ bbFile = open(filename+".txt", "r")
 ENEMY_STATS = []
 DIRECTORY = os.getcwd()
 NUM_OF_STATS = TABLE_STAT_ENDING_LINE - TABLE_STAT_STARTING_LINE + 1
+CURRENT_LIST_SIZE = 0
 
 ##########################################################################################
 #                                                                                            
@@ -62,8 +63,8 @@ def readStats(document):
 #   **  createTable    **                                                                                     
 #  
 # Arguments: 	Line Number, htmlCode
-# Function: 	Creates Enemy Table
-# Returns: 		
+# Function: 	Creates Table Tags
+# Returns: 		New HTML code
 # 
 #                                                                                                  
 ##########################################################################################
@@ -77,12 +78,44 @@ def createTable(lineNum, htmlCode):
 	for statNum in range(NUM_OF_STATS):
 		rows = htmlCode[lineNum+statNum+1].split(DELIMITER)
 		try:
-			newLine = "\n	<tr>\n		<td class=\"content_headerrow\">" + rows[0].strip() + "</td>\n" + "		<td class=\"content_headerrow\">" + rows[1].strip() + "</td>\n	</tr>"
+			newLine = "\n	<tr>\n		<td class=\"content_headerrow\">" + rows[0].strip() + "</td>\n" + "		<td class=\"content_headerrow\">" + rows[1].strip() + "</td>\n	</tr>\n"	
+			if statNum + 1 == NUM_OF_STATS:
+				newLine = newLine + "</table>\n"
 			htmlCode[lineNum+statNum+1] = newLine
 		except:
 			if len(rows) == 1:
 				print "Unable to break data in lines " + str(lineNum+statNum+2)
 	return htmlCode
+
+##########################################################################################
+#                                                                                            
+#                                                                                                
+#                                                                                                
+#   **  createList    **                                                                                     
+#  
+# Arguments: 	Line Number, htmlCode
+# Function: 	Creates List tags
+# Returns: 		New HTML Code
+# 
+#                                                                                                  
+##########################################################################################
+def createList(lineNum, htmlCode, listType):
+	count=0
+	while len(htmlCode[lineNum+count+1]) <= 2:
+		count = count + 1
+	spaces = count
+	count = 0
+	while len(htmlCode[lineNum+count+spaces+1]) > 2:
+		htmlCode[lineNum+count+spaces+1] = "	<li>" +  htmlCode[lineNum+count+spaces+1]
+		htmlCode[lineNum+count+spaces+1] = htmlCode[lineNum+count+spaces+1][:len(htmlCode[lineNum+count+spaces+1])-1] + "</li>\n"
+		count = count + 1
+	if listType == "UNORDERED":
+		htmlCode[lineNum+spaces+1] = "<ul>\n" + htmlCode[lineNum+spaces+1]
+		htmlCode[lineNum+count+spaces+1] = htmlCode[lineNum+count+spaces+1][:len(htmlCode[lineNum])-1] + "</ul>\n" 
+		#print htmlCode[lineNum+count+1]
+	data = [htmlCode, count]
+	
+	return data
 
 ##########################################################################################
 #                                                                                            
@@ -98,8 +131,12 @@ def createTable(lineNum, htmlCode):
 ##########################################################################################
 
 def replaceBBTag(BBTag, HTMLTag, line):
+	if "[*]" in line:
+		if BBTag == "*":
+			line = line[:len(line)-1] + "</li> \n"
 	line = line.replace("["+BBTag+"]","<"+HTMLTag+">")
-	line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
+	if BBTag != "*":
+		line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
 	return line
 
 ##########################################################################################
@@ -162,13 +199,18 @@ def removeSizeTagInstances(line):
 ##########################################################################################
 
 def endOfLineHandling(line):
+	if "<li>"in line or  "<ul>" in line or "</ul>" in line or "<table>" in line or "</table>" in line or "<td>" in line or "<tr>" in line or "</td>" in line or "</tr>" in line:
+		return line
+	# if "<ul>" in line:
+	# 	return line
 	#If many characters in the line, assume a paragraph has been written and add paragraph tags
 	if len(line) >= 100:
-		line = "<p>"+str(line[:len(htmlCode[lineNum])-1])+"</p>\n" #Add code to give line a paragraph tag
+		line = "<p>"+str(line[:len(line)-1])+"</p>\n" #Add code to give line a paragraph tag
 
 	#otherwise assume that it was just a small line break and add a break tag
 	else:
-		line = str(line[:len(htmlCode[lineNum])-1]) + "<br>\n"
+		if "\n" in line[len(line)-1:]:
+			line = str(line[:len(line)-1])+"<br>\n"
 	return line
 
 
@@ -191,17 +233,26 @@ if TABLE_EXISTS == 1:
 	readStats(htmlCode)
 table = 0
 count = 0
+listexists = 0
 #Fix each line of BBCode into HTML Code
 for line in htmlCode:
 	count = count + 1
+	if LIST_UNORDERED_EXISTS == 1 and LIST_UNORDERED_KEYWORD in htmlCode[lineNum].lower():
+		data = createList(lineNum, htmlCode, "UNORDERED")
+		htmlCode = data[0]
+		line = htmlCode[lineNum]
+		listexists = 1
+		listCounter = 0
+
 	# Checks if enemy table is about to start, doesn't check if we are on the last line of the file
-	if lineNum + 1 < len(htmlCode):
-		if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
-			htmlCode = createTable(lineNum, htmlCode)
-			line = htmlCode[lineNum]
-			#New table found, set table boolean to true and counter to zero for paragraph handling
-			table = 1
-			tableCounter=0
+	if TABLE_EXISTS == 1: 
+		if lineNum + 1 < len(htmlCode):
+			if ENEMY_STATS[0][0].lower() + DELIMITER in htmlCode[lineNum+1].lower():
+				htmlCode = createTable(lineNum, htmlCode)
+				line = htmlCode[lineNum]
+				#New table found, set table boolean to true and counter to zero for paragraph handling
+				table = 1
+				tableCounter=0
 
 	#Replace BB Code Tags with HTML Tags For line
 	tagNum = 0
@@ -214,15 +265,20 @@ for line in htmlCode:
 	line = removeSizeTagInstances(line)
 
 	#Handle end of line adding paragraph tag or line break where necessary
-	if table == 0:
+	if table == 0 and listexists == 0:
 		line = endOfLineHandling(line)
 	elif table == 1:
 		tableCounter=tableCounter+1
 		if tableCounter == NUM_OF_STATS+1:
 			table=0
+	elif listexists == 1:
+		listCounter = listCounter + 1
+		# print listCounter
+		# print CURRENT_LIST_SIZE
+		if listCounter == data[1] + 2:
+			listexists = 0 
 
 	#Write New Line to File
 	htmlFile.write(line)
-
 	# Increment Line Counter before begin handling next line
 	lineNum = lineNum + 1
