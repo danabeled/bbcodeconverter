@@ -1,0 +1,594 @@
+**Okay, let me know if you can see the little picture icon, please. I have Tidus' weapons done.
+
+Feel free to point out any mistakes, that always happen when I'm staring at the computer screen too long.
+
+[U][B]A guide to this guide:[/B][/U]
+
+~Each weapon has a number next to it. This is important. For a weapon to have that name and appearance, it must contain ALL of the abilities listed next to it.
+
+~If it contains all of the abilities, and you customize it to contain other abilities, it will take the name and form of the HIGHEST numbered weapon on the list. 
+
+For example: 
+If a Sword contains the sensor ability, it will be the Hunters Sword, which is #49. If you add Poison Strike, which is the ability on weapon #34, Sidewinder, the Hunter Sword will becoming the Sidewinder because #34 is a higher number than #49.
+
+~A weapon can contain up to FOUR slots for skills and in some weapons, needs to have four slots.
+
+[U][B]Tidus' weapons:[/B][/U]
+
+[U]Appearances (linked together to save space):[/U]
+
+[ATTACH=CONFIG]52119[/ATTACH]  1. Caladbolg
+
+[ATTACH=CONFIG]52120[/ATTACH]  2. Brotherhood / 5. Excalibur / 51. Icebrand / 53. Liquid Steel
+
+[ATTACH=CONFIG]52121[/ATTACH]  3. Taming Sword / 38. Knight Sword / 39. Wizard Sword / 49. Hunter's Sword / 56. Baroque Sword / 60. Enchanted Sword / 62. Warrior's Sword / 64. Longsword 
+
+[ATTACH=CONFIG]52122[/ATTACH]  4. Crystal Sword / 22. Tri-Steel / 40. Double-Edge / 50. Flametongue / 52. Lightning Steel
+
+[ATTACH=CONFIG]52123[/ATTACH]  6. Ragnarok / 7. Balmung / 8. Save the Queen / 9. Heartbreaker / 10. Lionheart / 11. Durandal / 12. Ascalon / 13. Ambitious / 14. Hrunting / 15. Astral Sword / 21. Gilventure / 24. Vendetta / 25. Avenger / 26. Prism Steel / 27. Mirage Sword / 54. Variable Steel 
+
+[ATTACH=CONFIG]52124[/ATTACH]  16. Apocalypse / 20. Arc Sword / 23. Helter-Skelter / 31. Death Macabre / 32. Largamente / 33. Gravestone / 34. Sidewinder / 35. Nightmare / 36. Mage Masher / 37. Nightbringer / 41. Razmatazz / 42. Deathbringer / 43. Running Steel / 44. Basilisk Steel / 45. Poison Steel / 46. Lullaby Steel / 47. Muted Steel / 48. Twilight Steel
+
+[ATTACH=CONFIG]52118[/ATTACH]  17. Master Sword / 18. Runemaster / 19. Warlock / 28. Lifesaver / 29. Sonic Steel / 30. Vigilante / 55. Force Saber / 57. Sorcery Sword / 58. Soldier's Saber / 59. Rune Steel / 61. Fencing Saber / 63. Slasher 
+
+[U]Weapons:[/U]
+
+[B]1. Caladbolg[/B] - Celestial Weapon
+[B]2. Brotherhood[/B] - Str+5% / Str+10% / Sensor / Waterstrike
+[B]3. Taming Sword[/B] - Capture
+[B]4. Crystal Sword[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+[B]5. Excalibur[/B] - Break Damage Limit
+[B]6. Ragnarok[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+[B]7. Balmung[/B] - Overdrive - AP / Triple Overdrive
+[B]8. Save the Queen[/B] - Double AP / Double Overdrive
+[B]9. Hearthbreaker[/B] - Triple Overdrive
+[B]10. Lionheart[/B] - Double Overdrive
+[B]11. Durandal [/B]- Triple AP
+[B]12. Ascalon[/B] - Double AP
+[B]13. Ambitious[/B] - Overdrive - AP
+[B]14. Hrunting[/B] - SOS Overdrive
+[B]15. Astral Sword[/B] - One MP Cost
+[B]16. Apocalypse[/B] - (Must have any 4 of the following abilities) Darkstrike /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike / Slowstrike / Zombiestrike
+[B]17. Master Sword[/B] - (All four slots must contain) Str +(any)%
+[B]18. Runemaster [/B]- (All four slots must contain) Magic+(any)%
+[B]19. Warlock [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+[B]20. Arc Sword[/B] - Half MP Cost
+[B]21. Gilventure[/B] - Gillionaire 
+[B]22. Tri-Steel[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+[B]23. Helter-Skelter[/B] - (Must contain any 3 of the following abilities) Darkstrike /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike / Slowstrike / Zombiestrike
+[B]24. Vendetta[/B] - Magic Counter / Counter OR Evade & Counter
+[B]25. Avenger[/B] - Counter OR Evade &Counter
+[B]26. Prism Steel[/B] - Magic Counter 
+[B]27. Mirage Sword[/B] - Magic Booster
+[B]28. Lifesaver[/B] - Alchemy
+[B]29. Sonic Steel[/B] - First Strike
+[B]30. Vigilante [/B]- Initiative
+[B]31. Death Macabre[/B] - Deathstrike
+[B]32. Largamente [/B]- Slowstrike
+[B]33. Gravestone[/B] - Stonestrike
+[B]34. Sidewinder [/B]- Poison Strike
+[B]35. Nightmare[/B] - Sleepstrike
+[B]36. Mage Masher[/B] - Silencestrike
+[B]37. Nightbringer[/B] - Darkstrike
+[B]38. Knight Sword[/B] - (Three slots must contain) Str+(any)%
+[B]39. Wizard Sword [/B]- (Three slots must contain) Magic+(any)%
+[B]40. Double-Edge[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+[B]41. Razmatazz[/B] - (Must contain any 2 of the following abilities) Darkstrike  /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /  Slowstrike / Zombiestrike
+[B]42. Deathbringer[/B] - Deathtouch
+[B]43. Running Steel [/B]- Slowtouch
+[B]44. Basilisk Steel [/B]- Stonetouch
+[B]45. Poison Steel [/B]- Poisontouch
+[B]46. Lullaby Steel [/B]- Sleeptouch
+[B]47. Muted Steel [/B]- Silencetouch
+[B]48. Twilight Steel[/B] - Darktouch
+[B]49. Hunter's Sword[/B] - Sensor
+[B]50. Flametongue[/B] - Firestrike
+[B]51. Icebrand[/B] - Icestrike
+[B]52. Lightning Steel [/B]- Thunderstrike
+[B]53. Liquid Steel [/B]- Waterstrike
+[B]54. Variable Steel[/B] - All 4 slots on a four slotted weapon empty
+[B]55. Force Saber[/B] - Str+(any)% / Magic+(any)%
+[B]56. Baroque Sword[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+[B]57. Sorcery Sword[/B] - Magic+10% OR Magic+20%
+[B]58. Soldier's Saber[/B] - Str+10% OR Str+20%
+[B]59. Rune Steel [/B]- Magic+5%
+[B]60. Enchanted Sword [/B]- Magic+3%
+[B]61. Fencing Saber [/B]- Str+5%
+[B]62. Warrior's Sword [/B]- Str+3%
+[B]63. Slasher[/B] - Piercing
+[B]64. Longsword [/B]- Starting Weapon
+
+[U][B]Yuna's Weapons:
+[/B][/U]
+[U]Appearance:[/U]
+
+[ATTACH=CONFIG]52127[/ATTACH] 1. Nirvana
+
+[ATTACH=CONFIG]52128[/ATTACH] 3. Herding Staff/ 20. Magistral Rod / 64. Staff
+
+[ATTACH=CONFIG]52130[/ATTACH] 4. Arc Arcana / 22. Tri-Rod / 23. Wicked Hand / 31. Punisher / 32. Impasse / 33. Cacite Staff / 34. Bizarre Staff / 35. Staff of Thorns / 36. Reticent Staff / 37. Darkness Staff / 40. Dual Rod / 41. Ominous Rod / 42. Death Wand / 43. Entangling Rod / 44. Break Rod / 45. Belladona Rod / 46. Lullaby Rod / 47. Rod of Silence / 48. Rod of Darkness / 50. Rod of Flame / 51. Rod of Ice / 52. Rod of Thunder / 53. Rod of Water
+
+[ATTACH=CONFIG]52131[/ATTACH] 5. Abraxas / 6. Heavenly Axis / 7. Judgement / 8. Seraphim Rod / 9. Rod of Roses / 10. Nimbus Rod / 11. Wonder Wing / 12. Wing Wand / 13. Wonder Wand / 14. Laevatein / 15. Astral Rod / 16. Chaos Rod / 21. El Dorado
+
+[ATTACH=CONFIG]52132[/ATTACH] 17. Power Staff / 24. Nemesis Rod / 25. Defender / 26. Prism Rod / 29. Wind Rod / 30. Conductor / 38. Monk Staff / 58. Full Metal Rod / 61. Rod of Striking / 62. Rod of Beating / 63. Spiked Rod
+
+[ATTACH=CONFIG]52133[/ATTACH] 18. Shining Staff / 19. Faerie Staff / 27. Mirage Rod / 28. Healing Rod / 39. Mage's Staff / 49. Rod of Wisdom / 55. Force Rod / 56. Ductile Rod / 57. Sorcery Rod / 60. Enchanted Rod 
+
+[U]Weapons:[/U]
+ 
+ [B]1. Nirvana[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Herding Staff[/B] - Capture
+ [B]4. Arc Arcana[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Abraxas[/B] - Break Damage Limit
+ [B]6. Heavenly Axis[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Judgement[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Seraphim Rod[/B] - Double AP / Double Overdrive
+ [B]9. Rod of Roses[/B] - Triple Overdrive
+ [B]10. Nimbus Rod[/B] - Double Overdrive
+ [B]11. Wonder Wing [/B]- Triple AP
+ [B]12. Wing Wand[/B] - Double AP
+ [B]13. Wonder Wand[/B]- Overdrive - AP
+ [B]14. Laevatein[/B] - SOS Overdrive
+ [B]15. Astral Rod[/B] - One MP Cost
+ [B]16. Chaos Rod[/B]  - (Must have any 4 of the following abilities) Darkstrike  /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /  Slowstrike / Zombiestrike
+ [B]17. Power Staff[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Shining Staff [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Faerie Staff [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Magistral Rod[/B] - Half MP Cost
+ [B]21. El Dorado[/B] - Gillionaire 
+ [B]22. Tri-Rod[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Wicked Hand[/B]  - (Must contain any 3 of the following abilities) Darkstrike  /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /  Slowstrike / Zombiestrike
+ [B]24. Nemesis Rod[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Defender[/B] - Counter OR Evade &Counter
+ [B]26. Prism Rod[/B] - Magic Counter 
+ [B]27. Mirage Rod[/B] - Magic Booster
+ [B]28. Healing Rod[/B] - Alchemy
+ [B]29. Wind Rod[/B] - First Strike
+ [B]30. Conductor [/B]- Initiative
+ [B]
+31. Punisher[/B] - Deathstrike
+ [B]32. Impasse [/B]- Slowstrike
+ [B]33. Calcite Staff[/B] - Stonestrike
+ [B]34. Bizarre Staff [/B]- Poisonstrike
+ [B]35. Staff of Thorns[/B] - Sleepstrike
+ [B]36. Reticent Staff[/B] - Silencestrike
+ [B]37. Darkness Staff[/B] - Darkstrike
+ [B]38. Monk Staff[/B] - (Three slots must contain) Str+(any)%
+ [B]39. Mage's Staff [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Dual Rod[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Ominous Rod[/B]  - (Must contain any 2 of the following abilities) Darkstrike   /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /   Slowstrike / Zombiestrike
+ [B]42. Dark Wand[/B] - Deathtouch
+ [B]43. Entangling Rod [/B]- Slowtouch
+ [B]44. Break Rod [/B]- Stonetouch
+ [B]45. Belladona Wand [/B]- Poisontouch
+ [B]46. Lullaby Rod [/B]- Sleeptouch
+ [B]47. Rod of Silence [/B]- Silencetouch
+ [B]48. Rod of Darkness[/B] - Darktouch
+ [B]49. Rod of Wisdom[/B] - Sensor
+ [B]50. Rod of Flame[/B] - Firestrike
+ [B]51. Rod of Ice[/B] - Icestrike
+ [B]52. Rod of Thunder [/B]- Thunderstrike
+ [B]53. Rod of Water [/B]- Waterstrike
+ [B]54. Malleable Staff[/B] - All 4 slots on a four slotted weapon empty
+ [B]55. Force Rod[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Ductile Rod[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Sorcery Rod[/B] - Magic+10% OR Magic+20%
+ [B]58. Full Metal Rod[/B] - Str+10% OR Str+20%
+ [B]59. Rune Rod [/B]- Magic+5%
+ [B]60. Enchanted Rod [/B]- Magic+3%
+ [B]61. Rod of Striking [/B]- Str+5%
+ [B]62. Rod of Beating [/B]- Str+3%
+ [B]63. Spiked Rod[/B] - Piercing
+ [B]64. Staff [/B]- Starting Weapon
+ [B][U]Wakka's Weapons:[/U]
+[/B][U]
+Appearance:[/U]
+
+[ATTACH=CONFIG]52199[/ATTACH] 1. World Champion
+
+[ATTACH=CONFIG]52200[/ATTACH] 3. Catcher / 4. Four-on-One / 5. Grand Slam / 6. Blowout / 7. Rout / 8. Tie Breaker / 9. Winning Streak / 10. Scoring Spree / 11. Triple Score / 12. Double Score / 13. Rookie Star / 14. Buzzerbeater / 15. Overtime / 16. Penalty Master
+
+[ATTACH=CONFIG]52202[/ATTACH] 17. Ace Striker / 18. Ace Wizard / 19. Over the Top / 38. Power Play / 39. Virtuoso / 55. Ovation / 56. Switch Hitter / 57. Trickster / 58. Striker / 59. Rune Ball / 60. Magic Ball / 61. Hyper Ball / 62. Power Ball / 63. Center Forward / 64. Official Ball
+
+[ATTACH=CONFIG]52203[/ATTACH] 22. Tricolor / 40. Double Header / 50. Fire Ball / 51. Ice Ball / 52. Thunder Ball / 53. Water Ball
+
+[ATTACH=CONFIG]52204[/ATTACH] 23. Triple Penalty / 31. Sudden Death / 32. Timeout / 33. Stone Cold / 34. Violation / 35. Sleeper / 36. Muffler / 37. Blackout / 41. Double Penalty / 42. Rough Play / 43. Delay of Game / 44. TKO / 45. Rulebreaker / 46. Dream Team / 47. Noisebreaker / 48. Blind Pass
+
+[ATTACH=CONFIG]52205[/ATTACH] 28. Comeback / 29. Breakaway / 30. First-Goal / 49. Scout / 54. All-Rounder
+
+[U]Weapons:[/U]
+
+[B]1. World Champion[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Catcher[/B] - Capture
+ [B]4. Four-on-One[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Grand Slam[/B] - Break Damage Limit
+ [B]6. Blowout[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Rout[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Tie Breaker[/B] - Double AP / Double Overdrive
+ [B]9. Winning Streak[/B] - Triple Overdrive
+ [B]10. Scoring Spree[/B] - Double Overdrive
+ [B]11. Triple Score [/B]- Triple AP
+ [B]12. Double Score[/B] - Double AP
+ [B]13. Rookie Star [/B]- Overdrive - AP
+ [B]14. Buzzerbeater[/B] - SOS Overdrive
+ [B]15. Overtime[/B] - One MP Cost
+ [B]16. Penalty Master[/B]   - (Must have any 4 of the following abilities) Darkstrike   /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /   Slowstrike / Zombiestrike
+ [B]17. Ace Striker[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Ace Wizard [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Over the Top [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Halftime[/B] - Half MP Cost
+ [B]21. Free Agent[/B] - Gillionaire 
+ [B]22. Tricolor[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Triple Penalty[/B]   - (Must contain any 3 of the following abilities) Darkstrike   /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /   Slowstrike / Zombiestrike
+ [B]24. Turnover[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Rematch[/B] - Counter OR Evade &Counter
+ [B]26. Prism Ball[/B] - Magic Counter 
+ [B]27. Mirage Ball[/B] - Magic Booster
+ [B]28. Comeback[/B] - Alchemy
+ [B]29. Breakaway[/B] - First Strike
+ [B]30. First-Goal [/B]- Initiative
+ [B]31. Sudden Death[/B] - Deathstrike
+ [B]32. Timeout [/B]- Slowstrike
+ [B]33. Stone Cold[/B] - Stonestrike
+ [B]34. Violation [/B]- Poisonstrike
+ [B]35. Sleeper[/B] - Sleepstrike
+ [B]36. Muffler[/B] - Silencestrike
+ [B]37. Blackout[/B] - Darkstrike
+ [B]38. Power Play[/B] - (Three slots must contain) Str+(any)%
+ [B]39. Virtuoso [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Double Header[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Double Penalty[/B]   - (Must contain any 2 of the following abilities) Darkstrike    /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /    Slowstrike / Zombiestrike
+ [B]42. Rough Play[/B] - Deathtouch
+ [B]43. Delay of Game [/B]- Slowtouch
+ [B]44. TKO [/B]- Stonetouch
+ [B]45. Rulebreaker [/B]- Poisontouch
+ [B]46. Dream Team [/B]- Sleeptouch
+ [B]47. Noisebreaker [/B]- Silencetouch
+ [B]48. Blind Pass[/B] - Darktouch
+ [B]49. Scout[/B] - Sensor
+ [B]50. Fire Ball[/B] - Firestrike
+ [B]51. Ice Ball[/B] - Icestrike
+ [B]52. Thunder Ball [/B]- Thunderstrike
+ [B]53. Water Ball [/B]- Waterstrike
+ [B]54. All-Rounder [/B]- All 4 slots on a four slotted weapon empty
+ [B]55. Ovation[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Switch Hitter[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Trickster[/B] - Magic+10% OR Magic+20%
+ [B]58. Striker[/B] - Str+10% OR Str+20%
+ [B]59. Rune Ball [/B]- Magic+5%
+ [B]60. Magic Ball [/B]- Magic+3%
+ [B]61. Hyper Ball [/B]- Str+5%
+ [B]62. Power Ball [/B]- Str+3%
+ [B]63. Center Forward[/B] - Piercing
+ [B]64. Official Ball [/B]- Starting Weapon
+
+ [U][B]Lulu's Weapons:[/B][/U]
+
+[U]Appearance:[/U]
+
+[ATTACH=CONFIG]52214[/ATTACH] 1. Onion Knight
+
+[ATTACH=CONFIG]52215[/ATTACH] 3. Trapper Moogle / 5. Soul of Mog / 19. Mana Mog / 28. Medical Mog / 38. Power Mog / 39. Magician Mog / 54. Morphing Mog / 56. Variable Mog / 59. Rune Mog / 60. Magical Mog / 61. Buster Mog / 62. Attack Mog / 63. Stinger Mog / 64. Moogle
+
+[ATTACH=CONFIG]52216[/ATTACH] 4. Moomba Quartet / 22. Moomba Trio / 40. Moomba Duo / 50. Fire Moomba / 51. Ice Moomba / 52. Thunder Moomba / 53. Water Moomba / 55. Moomba Force / 57. Moomba Mage / 58. Moomba Warrior
+
+[ATTACH=CONFIG]52217[/ATTACH] 6. Space Soul / 7. Space Master / 8. Space King / 9. Space Force / 10. Space Energy / 14. Space Power / 17. Space Warrior / 18. Space Mage / 21. Space Bandit
+
+[ATTACH=CONFIG]52218[/ATTACH] 11. Comet Cactuar / 12. Star Cactuar / 13. Lord Cactuar / 15. Magical Cactuar / 20. Cactuar Wizard / 24. Vengeful Cactuar / 25. Raging Cactuar / 26. Prism Cactuar / 27. Booster Cactuar / 29. Swift Cactuar / 30. Cactuar Spy / 49. Cactuar Scope
+
+[ATTACH=CONFIG]52219[/ATTACH] 16. Chaotic Cait Sith / 23. Abaddon Cait Sith / 31. Wicked Cait Sith / 32. Chronos Cait Sith / 33. Stone Cait Sith / 34. Toxic Cait Sith / 35. Dreamy Cait Sith / 36. Mute Cait Sith / 37. Dark Cait Sith / 41. Ominous Cait Sith / 42. Fatal Cait Sith / 43. Late Cait Sith / 44. Fossil Cait Sith / 45. Noxious Cait Sith / 46. Sleepy Cait Sith / 47. Quiet Cait Sith / 48. Blinding Cait Sith
+
+[U]Weapons:[/U]
+ 
+ [B]1. Onion Knight[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Trapper Moogle[/B] - Capture
+ [B]4. Moomba Quartet[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Soul of Mog[/B] - Break Damage Limit
+ [B]6. Space Soul[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Space Master[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Space King[/B] - Double AP / Double Overdrive
+ [B]9. Space Force[/B] - Triple Overdrive
+ [B]10. Space Energy[/B] - Double Overdrive
+ [B]11. Comet Cactuar [/B]- Triple AP
+ [B]12. Star Cactuar[/B] - Double AP
+ [B]13. Lord Cactuar [/B]- Overdrive - AP
+ [B]14. Space Power[/B] - SOS Overdrive
+ [B]15. Magical Cactuar[/B] - One MP Cost
+ [B]16. Chaotic Cait Sith[/B]   - (Must have any 4 of the following abilities) Darkstrike    /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /    Slowstrike / Zombiestrike
+ [B]17. Space Warrior[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Space Mage [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Mana Mog [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Cactuar Wizard[/B] - Half MP Cost
+ [B]21. Space Bandit[/B] - Gillionaire 
+ [B]22. Moomba Trio[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Abaddon Cait Sith[/B]    - (Must contain any 3 of the following abilities) Darkstrike    /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /    Slowstrike / Zombiestrike
+ [B]24. Vengeful Cactuar[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Raging Cactuar[/B] - Counter OR Evade &Counter
+ [B]26. Prism Cactuar[/B] - Magic Counter 
+ [B]27. Booster Cactuar[/B] - Magic Booster
+ [B]28. Medical Mog[/B] - Alchemy
+ [B]29. Swift Cactuar[/B] - First Strike
+ [B]30. Cactuar Spy [/B]- Initiative
+ [B]31. Wicked Cait Sith[/B] - Deathstrike
+ [B]32. Chronos Cait Sith [/B]- Slowstrike
+ [B]33. Stone Cait Sith[/B] - Stonestrike
+ [B]34. Toxic Cait Sith [/B]- Poisonstrike
+ [B]35. Dreamy Cait Sith[/B] - Sleepstrike
+ [B]36. Mute Cait Sith[/B] - Silencestrike
+ [B]37. Dark Cait Sith[/B] - Darkstrike
+ [B]38. Power Mog[/B] - (Three slots must contain) Str+(any)%
+ [B]39. Magician Mog [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Moomba Duo[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Ominous Cait Sith[/B]    - (Must contain any 2 of the following abilities) Darkstrike     /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /     Slowstrike / Zombiestrike
+ [B]42. Fatal Cait Sith[/B] - Deathtouch
+ [B]43. Late Cait Sith [/B]- Slowtouch
+ [B]44. Fossil Cait Sith [/B]- Stonetouch
+ [B]45. Noxious Cait Sith [/B]- Poisontouch
+ [B]46. Sleepy Cait Sith [/B]- Sleeptouch
+ [B]47. Quiet Cait Sith [/B]- Silencetouch
+ [B]48. Blinding Cait Sith[/B] - Darktouch
+ [B]49. Cactuar Scope[/B] - Sensor
+ [B]50. Fire Moomba[/B] - Firestrike
+ [B]51. Ice Moomba[/B] - Icestrike
+ [B]52. Thunder Moomba [/B]- Thunderstrike
+ [B]53. Water Moomba [/B]- Waterstrike
+ [B]54. Morphing Mog [/B]- All 4 slots on a four slotted weapon empty
+ [B]55. Moomba Force[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Variable Mog[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Moomba Mage[/B] - Magic+10% OR Magic+20%
+ [B]58. Moomba Warrior[/B] - Str+10% OR Str+20%
+ [B]59. Rune Mog [/B]- Magic+5%
+ [B]60. Magical Mog [/B]- Magic+3%
+ [B]61. Buster Mog [/B]- Str+5%
+ [B]62. Attack Mog [/B]- Str+3%
+ [B]63. Stinger Mog[/B] - Piercing
+ [B]64. Moogle [/B]- Starting Weapon
+
+ [U][B]Auron's Weapons:[/B][/U]
+
+[U]Appearance:[/U]
+
+[ATTACH=CONFIG]52250[/ATTACH] 1. Masamune
+
+[ATTACH=CONFIG]52251[/ATTACH] 3. Beastmaster / 5. Heaven's Cloud / 6. Muramasa / 7. Alhaid / 8. Peacemaker / 9. Genji Blade / 10. Dragon Killer / 11. Painkiller / 12. Divider / 13. The Nameless / 14. Ogrekiller
+
+[ATTACH=CONFIG]52252[/ATTACH] 4. Conqueror / 15. Murasame / 18. Master Djinn / 19. Matoya's Blade / 20. Inducer / 22. Ichimonji / 39. Djinn Blade / 40. Dual Blade / 50. Fire Blade / 51. Frost Blade / 52. Thunder Blade / 53. Water Blade / 54. Shiranui / 55. Basara Blade / 57. Spiritual Blade / 58. Nodachi / 59. Rune Blade / 60. Magic Blade 
+
+[ATTACH=CONFIG]52253[/ATTACH] 16. Riot Blade / 23. Corrupter / 31. Assassin Blade / 32. Blockade / 33/ Still Blade / 34. Venemous Blade / 35. Dozing Blade / 36. Tacit Blade / 37. Dark Blade / 41. Chaos Blade / 42. Critical Blade / 43. Stunner / 44. Gorgon Gaze / 45. Spider's Kiss / 46. Peaceful Slumber / 47. Soundless Scream / 48. Blurry Moon
+
+[ATTACH=CONFIG]52254[/ATTACH] 24. Ashura / 25. Kotetsu / 26. Prism Blade / 27. Mirage Blade / 28. Lifegiver / 29. Sonic Blade / 30. Sentry / 38. Ogre Blade / 49. Hunter's Blade / 56. Shimmering Blade / 61. War Blade / 62. Knight's Blade / 63. Katana / 64. Blade
+
+[U]Weapons:[/U]
+ 
+ [B]1. Masamune[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Beastmaster[/B] - Capture
+ [B]4. Conqueror[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Heaven's Cloud[/B] - Break Damage Limit
+ [B]6. Muramasa[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Alhaid[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Peacemaker[/B] - Double AP / Double Overdrive
+ [B]9. Genji Blade[/B] - Triple Overdrive
+ [B]10. Dragon Killer[/B] - Double Overdrive
+ [B]11. Painkiller [/B]- Triple AP
+ [B]12. Divider[/B] - Double AP
+ [B]13. The Nameless [/B]- Overdrive - AP
+ [B]14. Ogrekiller[/B] - SOS Overdrive
+ [B]15. Murasame[/B] - One MP Cost
+ [B]16. Riot Blade[/B]    - (Must have any 4 of the following abilities) Darkstrike     /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /     Slowstrike / Zombiestrike
+ [B]17. Master Ogre[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Master Djinn [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Matoya's Blade [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Inducer[/B] - Half MP Cost
+ [B]21. Gilmonger[/B] - Gillionaire 
+ [B]22. Ichimonji[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Corrupter[/B]     - (Must contain any 3 of the following abilities) Darkstrike     /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /     Slowstrike / Zombiestrike
+ [B]24. Ashura[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Kotetsu[/B] - Counter OR Evade &Counter
+ [B]26. Prism Blade[/B] - Magic Counter 
+ [B]27. Mirage Blade[/B] - Magic Booster
+ [B]28. Lifegiver[/B] - Alchemy
+ [B]29. Sonic Blade[/B] - First Strike
+ [B]30. Sentry [/B]- Initiative
+ [B]31. Assassin's Blade[/B] - Deathstrike
+ [B]32. Blockade [/B]- Slowstrike
+ [B]33. Still Blade[/B] - Stonestrike
+ [B]34. Venomous Blade [/B]- Poisonstrike
+ [B]35. Dozing Blade[/B] - Sleepstrike
+ [B]36. Tacit Blade[/B] - Silencestrike
+ [B]37. Dark Blade[/B] - Darkstrike
+ [B]38. Ogre Blade[/B] - (Three slots must contain) Str+(any)%
+ [B]39. Djinn Blade [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Dual Blade[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Chaos Blade[/B]     - (Must contain any 2 of the following abilities) Darkstrike      /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /      Slowstrike / Zombiestrike
+ [B]42. Critical Blade[/B] - Deathtouch
+ [B]43. Stunner [/B]- Slowtouch
+ [B]44. Gorgon Gaze [/B]- Stonetouch
+ [B]45. Spider's Kiss [/B]- Poisontouch
+ [B]46. Peaceful Slumber [/B]- Sleeptouch
+ [B]47. Soundless Scream [/B]- Silencetouch
+ [B]48. Blurry Moon[/B] - Darktouch
+ [B]49. Hunter's Blade[/B] - Sensor
+ [B]50. Fire Blade[/B] - Firestrike
+ [B]51. Frost Blade[/B] - Icestrike
+ [B]52. Thunder Blade [/B]- Thunderstrike
+ [B]53. Water Blade [/B]- Waterstrike
+ [B]54. Shiranui [/B]- All 4 slots on a four slotted weapon empty
+ [B]55. Basara Blade[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Shimmering Blade[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Spiritual Blade[/B] - Magic+10% OR Magic+20%
+ [B]58. Nodachi[/B] - Str+10% OR Str+20%
+ [B]59. Rune Blade [/B]- Magic+5%
+ [B]60. Magic Blade [/B]- Magic+3%
+ [B]61. War Blade [/B]- Str+5%
+ [B]62. Knight's Blade [/B]- Str+3%
+ [B]63. Katana[/B] - Piercing
+ [B]64. Blade [/B]- Starting Weapon
+
+ [B]Rikku's Weapons:[/B]
+
+[U]Appearance:[/U]
+
+[ATTACH=CONFIG]52261[/ATTACH] 1. Godhand
+
+[ATTACH=CONFIG]52262[/ATTACH] 3. Iron Grip / 4. Deus Ex Machina / 5. Kaiser Knuckles / 6. Victorix / 7. Unlimited / 8. Warmonger / 9. Overload / 10. Override / 11. Golden Arm / 12. Golden Hand / 13. Ironside / 14. Battle Freak / 15. Infinity / 16. Tempest Claw / 20. Magical Rave / 21. Sticky Fingers / 24. Untouchable / 25. Tit-for-Tat / 26. Prism Claw / 27. Mirage Claw
+
+[ATTACH=CONFIG]52263[/ATTACH] 17. Spartan / 18. Brunhilde / 19. Valkyrie / 38. Tron Claw / 39. The Ogre / 55. Force Knuckles / 56. Devastator / 57. Magic Knuckles / 58. Buster Knuckles / 59. Magic Claw / 60. Magic Glove / 61. Buster Claw / 62. Buster Glove / 63. Barbed Knuckles / 64. Claw
+
+[ATTACH=CONFIG]52264[/ATTACH] 22. Rising Sun / 28. Survivor / 29. Vanguard / 30. Sonar / 40. Dual Claw / 49. Hawkeye / 50. Hot Knuckles / 51. Ice Claw / 52. Shocking Fist / 53. Tidal Knuckles / 54. Flexible Arm
+
+[ATTACH=CONFIG]52265[/ATTACH] 23. Typhoon Claw / 31. Executioner / 32. Clockwork / 33. Colossus / 34. Manticore Claw / 35. Light's Out / 36. Mage Husher / 37. Jammer / 41. Hurricane Claw / 42. Ninja Claw / 43. Clock Hand / 44. Break Knuckles / 45. Poison Claw / 46. Daydreamer / 47. Tongue Holder / 48. Eye Poker
+
+[U]Weapons:[/U]
+ 
+ [B]1. Godhand[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Iron Grip[/B] - Capture
+ [B]4. Deus Ex Machina[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Kaiser Knuckles[/B] - Break Damage Limit
+ [B]6. Victorix[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Unlimited[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Warmonger[/B] - Double AP / Double Overdrive
+ [B]9. Overload[/B] - Triple Overdrive
+ [B]10. Override[/B] - Double Overdrive
+ [B]11. Golden Arm [/B]- Triple AP
+ [B]12. Golden Hand[/B] - Double AP
+ [B]13. Ironside [/B]- Overdrive - AP
+ [B]14. Battle Freak[/B] - SOS Overdrive
+ [B]15. Infinity[/B] - One MP Cost
+ [B]16. Tempest Claw[/B]     - (Must have any 4 of the following abilities) Darkstrike      /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /      Slowstrike / Zombiestrike
+ [B]17. Spartan[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Brunhilde [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Valkyrie [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Magical Rave[/B] - Half MP Cost
+ [B]21. Stickyfingers[/B] - Gillionaire 
+ [B]22. Rising Sun[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Typhoon Claw[/B]      - (Must contain any 3 of the following abilities) Darkstrike      /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /      Slowstrike / Zombiestrike
+ [B]24. Untouchable[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Tit-for-Tat[/B] - Counter OR Evade &Counter
+ [B]26. Prism Claw[/B] - Magic Counter 
+ [B]27. Mirage Claw[/B] - Magic Booster
+ [B]28. Survivor[/B] - Alchemy
+ [B]29. Vanguard[/B] - First Strike
+ [B]30. Sonar [/B]- Initiative
+ [B]31. Executioner[/B] - Deathstrike
+ [B]32. Clockwork [/B]- Slowstrike
+ [B]33. Colossus[/B] - Stonestrike
+ [B]34. Manticore Claw [/B]- Poisonstrike
+ [B]35. Lights Out [/B]- Sleepstrike
+ [B]36. Mage Husher[/B] - Silencestrike
+ [B]37. Jammer[/B] - Darkstrike
+ [B]38. Iron Claw[/B] - (Three slots must contain) Str+(any)%
+ [B]39. The Ogre [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Dual Claw[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Hurricane Claw[/B]      - (Must contain any 2 of the following abilities) Darkstrike       /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /       Slowstrike / Zombiestrike
+ [B]42. Ninja Claw[/B] - Deathtouch
+ [B]43. Clock Hand [/B]- Slowtouch
+ [B]44. Break Knuckles [/B]- Stonetouch
+ [B]45. Poison Claw [/B]- Poisontouch
+ [B]46. Daydreamer [/B]- Sleeptouch
+ [B]47. Tongue Holder [/B]- Silencetouch
+ [B]48. Eye Poker[/B] - Darktouch
+ [B]49. Hwkeye[/B] - Sensor
+ [B]50. Hot Knuckles[/B] - Firestrike
+ [B]51. Ice Claw[/B] - Icestrike
+ [B]52. Shocking Fist [/B]- Thunderstrike
+ [B]53. Tidal Knuckles [/B]- Waterstrike
+ [B]54. Flexible Arm [/B]- All 4 slots on a four slotted weapon empty
+ [B]55. Force Knuckles[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Devastator[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Magic Knuckles[/B] - Magic+10% OR Magic+20%
+ [B]58. Buster Knuckles[/B] - Str+10% OR Str+20%
+ [B]59. Magic Claw [/B]- Magic+5%
+ [B]60. Magic Glove [/B]- Magic+3%
+ [B]61. Buster Claw [/B]- Str+5%
+ [B]62. Buster Glove [/B]- Str+3%
+ [B]63. Barbed Knuckles[/B] - Piercing
+ [B]64. Claw [/B]- Starting Weapon
+
+[U][B]
+Kimahri's Weapons:[/B][/U]
+
+[U]Appearance: 
+[/U]
+[ATTACH=CONFIG]52272[/ATTACH] 1. Spirit Lance
+
+[ATTACH=CONFIG]52273[/ATTACH] 3. Taming Spear / 4. Quadriforce / 5. Gungnir / 6. Luin / 7. Gae Bolg / 8. Venus Gospel / 9. Highwind / 10. Berserker / 11. Horn of Ronso / 12. Chariot / 13. Transmuter / 14. Kain's Lance / 15. Astral Spear / 16. Chaos Lance / 20. Shamanic Spear / 21. Prospector / 24. Dragoon Lance / 25. Rebel Lance / 26. Prism Spear / 27. Mirage Lance
+
+[ATTACH=CONFIG]52274[/ATTACH] 17. Giant Spear / 18. Titan Lance / 19. Eldritch Lance / 38. Knight Lance / 39. Wizard Lance / 55. Force Lance / 57. Magic Lance / 58. Full Metal Spear / 59. Rune Lance / 61. Striking Spear
+
+[ATTACH=CONFIG]52275[/ATTACH] 22. Trident / 28. Healer Spear / 29. Sonic Lance / 30. Detector / 40. Twin Lance / 50. Heat Lance / 51. Ice Lance / 52. Thunder Spear / 53. Tidal Spear / 54. Shapeshifter
+
+[ATTACH=CONFIG]52276[/ATTACH] 23. Vicious Lance / 31. Thanatos Lance / 32. Net Spear / 33. Rock Buster / 34. venom Spike / 35. Hypno Spear / 36. Mage Hunter / 37. Darkbriner / 41. Calamity Spear / 42. Matador Spear / 43. Web Lance / 44. Break Lance / 45. Snakehead / 46. Dream Lance / 47. Silent Spear / 48. Dusk Lance
+
+[ATTACH=CONFIG]52277[/ATTACH] 49. Hunter's Spear / 56. Halberd / 60. Enchanted Lance / 62. Heavy Spear / 63. Harpoon / 64. Spear
+
+[U]Weapons:[/U]
+ 
+ [B]1. Spirit Lance[/B] - Celestial Weapon
+ [B]2. [/B]N/A
+ [B]3. Taming Spear[/B] - Capture
+ [B]4. Quadriforce[/B] - Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]5. Gungnir[/B] - Break Damage Limit
+ [B]6. Luin[/B] - Triple AP/ Overdrive - AP / Triple Overdrive
+ [B]7. Gae Bolg[/B] - Overdrive - AP / Triple Overdrive
+ [B]8. Venus Gospel[/B] - Double AP / Double Overdrive
+ [B]9. Highwind[/B] - Triple Overdrive
+ [B]10. Berserker[/B] - Double Overdrive
+ [B]11. Horn of the Ronso [/B]- Triple AP
+ [B]12. Chariot[/B] - Double AP
+ [B]13. Transmuter [/B]- Overdrive - AP
+ [B]14. Kain's Lance[/B] - SOS Overdrive
+ [B]15. Astral Spear[/B] - One MP Cost
+ [B]16. Chaos Sper[/B]      - (Must have any 4 of the following abilities) Darkstrike       /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /       Slowstrike / Zombiestrike
+ [B]17. Giant Spear[/B] - (All four slots must contain) Str +(any)%
+ [B]18. Titan Lance [/B]- (All four slots must contain) Magic+(any)%
+ [B]19. Eldritch Spear [/B]- Magic Booster / (All 3 remaining slots must contain) Magic+(any)%
+ [B]20. Shamanic Spear[/B] - Half MP Cost
+ [B]21. Prospector[/B] - Gillionaire 
+ [B]22. Trident[/B] - (Must contain any 3 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]23. Vicious Lance[/B]       - (Must contain any 3 of the following abilities) Darkstrike       /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /       Slowstrike / Zombiestrike
+ [B]24. Dragoon Lance[/B] - Magic Counter / Counter OR Evade & Counter
+ [B]25. Rebel Lance[/B] - Counter OR Evade &Counter
+ [B]26. Prism Spear[/B] - Magic Counter 
+ [B]27. Mirage Lance[/B] - Magic Booster
+ [B]28. Healer Spear[/B] - Alchemy
+ [B]29. Sonic Lance[/B] - First Strike
+ [B]30. Detector [/B]- Initiative
+ [B]31. Thanatos Lance[/B] - Deathstrike
+ [B]32. Net Spear [/B]- Slowstrike
+ [B]33. Rock Buster[/B] - Stonestrike
+ [B]34. Venom Spike [/B]- Poisonstrike
+ [B]35. Hypno Spear [/B]- Sleepstrike
+ [B]36. Mage Hunter[/B] - Silencestrike
+ [B]37. Darkbringer[/B] - Darkstrike
+ [B]38. Knight Lance[/B] - (Three slots must contain) Str+(any)%
+ [B]39. Wizard Lance [/B]- (Three slots must contain) Magic+(any)%
+ [B]40. Twin Lance[/B] - (Must contain any 2 of the following abilities) Firestrike / Icestrike / Thunderstrike / Waterstrike
+ [B]41. Calamity Spear[/B]       - (Must contain any 2 of the following abilities) Darkstrike        /Silencestrike /Sleepstrike / Poisonstrike / Stonestrike / Deathstrike /        Slowstrike / Zombiestrike
+ [B]42. Matador Spear[/B] - Deathtouch
+ [B]43. Web Lance [/B]- Slowtouch
+ [B]44. Break Lance [/B]- Stonetouch
+ [B]45. Snakehead [/B]- Poisontouch
+ [B]46. Dream Lance [/B]- Sleeptouch
+ [B]47. Silent Spear [/B]- Silencetouch
+ [B]48. Dusk Lance[/B] - Darktouch
+ [B]49. Hunter's Spear[/B] - Sensor
+ [B]50. Heat Lance[/B] - Firestrike
+ [B]51. Ice Lance[/B] - Icestrike
+ [B]52. Thunder Spear [/B]- Thunderstrike
+ [B]53. Tidal Spear [/B]- Waterstrike
+ [B]54. Shapeshifter [/B]- All 4 slots on a four slotted weapon empty
+ [B]55. Force Lance[/B] - Str+(any)% / Magic+(any)%
+ [B]56. Halberd[/B] - 2 or 3 slots empty on a 2, 3 or 4 slotted weapon
+ [B]57. Magic Lance[/B] - Magic+10% OR Magic+20%
+ [B]58. Full Metal Spear[/B] - Str+10% OR Str+20%
+ [B]59. Rune Lance [/B]- Magic+5%
+ [B]60. Enchanted Lance [/B]- Magic+3%
+ [B]61. Striking Spear [/B]- Str+5%
+ [B]62. Heavy Spear [/B]- Str+3%
+ [B]63. Harpoon[/B] - Piercing
+ [B]64. Spear [/B]- Starting Weapon

@@ -3,14 +3,14 @@ import os
 import re
 
 ###### CHANGE FILE NAME ########################
-filename = "ffxiiiguide"
+filename = "storyffxv"
 
 ###### CHANGE BB_TAGS ##########################
-BB_TAGS = ["B", "I", "U", "TD","TR","LIST=1","LIST", "TABLE", "*"]
-HTML_TAGS = ["b", "i", "u","td","tr","ol","ul","table","li"]
+BB_TAGS = ["B", "I", "U", "TD","TR","LIST=1","LIST", "TABLE", "*","HR"]
+HTML_TAGS = ["b", "i", "u","td","tr","ol","ul","table","li","hr"]
 
 ##### BOOLS FOR STRUCTURES #####################
-TABLE_EXISTS = 1
+TABLE_EXISTS = False
 LIST_UNORDERED_EXISTS = 1
 LIST_ORDERED_EXISTS = 0
 
@@ -31,6 +31,7 @@ ENEMY_STATS = []
 DIRECTORY = os.getcwd()
 NUM_OF_STATS = TABLE_STAT_ENDING_LINE - TABLE_STAT_STARTING_LINE + 1
 CURRENT_LIST_SIZE = 0
+PREV_PARAGRAPH = False
 
 ##########################################################################################
 #                                                                                            
@@ -134,9 +135,14 @@ def replaceBBTag(BBTag, HTMLTag, line):
 	if "[*]" in line:
 		if BBTag == "*":
 			line = line[:len(line)-1] + "</li> \n"
+	# print "["+BBTag+"]"
 	line = line.replace("["+BBTag+"]","<"+HTMLTag+">")
-	if BBTag != "*":
+	if BBTag != "*" and BBTag !=  "HR":
 		line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
+	elif BBTag == "HR":
+		# print "hit"
+		line = line.replace("[/"+BBTag+"]","")
+	# print line
 	return line
 
 ##########################################################################################
@@ -199,6 +205,7 @@ def removeSizeTagInstances(line):
 ##########################################################################################
 
 def endOfLineHandling(line):
+	print PREV_PARAGRAPH
 	if "<li>"in line or  "<ul>" in line or "</ul>" in line or "<table>" in line or "</table>" in line or "<td>" in line or "<tr>" in line or "</td>" in line or "</tr>" in line:
 		return line
 	# if "<ul>" in line:
@@ -206,11 +213,12 @@ def endOfLineHandling(line):
 	#If many characters in the line, assume a paragraph has been written and add paragraph tags
 	if len(line) >= 100:
 		line = "<p>"+str(line[:len(line)-1])+"</p>\n" #Add code to give line a paragraph tag
-
+		# PREV_PARAGRAPH = True
 	#otherwise assume that it was just a small line break and add a break tag
 	else:
 		if "\n" in line[len(line)-1:]:
-			line = str(line[:len(line)-1])+"<br>\n"
+			if PREV_PARAGRAPH == False:
+				line = str(line[:len(line)-1])+"<br>\n"
 	return line
 
 

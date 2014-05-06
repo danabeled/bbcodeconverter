@@ -1,0 +1,652 @@
+[SIZE=4][B]Chapter 1[/B][/SIZE]
+
+[COLOR=#33ccff][SIZE=3][B]Luca[/B][/SIZE][/COLOR]
+
+[U]Action Checklist:[/U]
+[LIST=1]
+[*] Defeat imposter Yuna 
+[*]Follow her to the third dock 
+[*]Defeat Ormi, Logos, and Leblanc 
+[/LIST]
+
+[U]100% Completion Guide Checklist - +1.6%:[/U]
+
+[LIST]
+[*]Examine the Moogle hiding in the second dock 
+[*]Complete the mission 
+[/LIST]
+
+
+[CENTER][U]Bestiary[/U]
+[/CENTER]
+ [TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]Goon
+[/B][/TD]
+[TD][B]She-Goon
+[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]29[/TD]
+[TD]7[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]1[/TD]
+[TD]1
+[/TD]
+[/TR]
+[TR]
+[TD][B]Gil
+[/B][/TD]
+[TD]30[/TD]
+[TD]30[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Budget Grenade x1[/TD]
+[TD]Budget Grenade x1[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Potion x1[/TD]
+[TD]Potion x1[/TD]
+[/TR]
+[/TABLE]
+
+After watching the opening scene, you will immediately be thrown in to a boss fight. It's a simple one to start off with.
+
+[CENTER][U]Boss Fight[/U]
+[/CENTER]
+  [TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]????
+[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]82[/TD]
+[/TR]
+[TR]
+[TD][B]MP
+[/B][/TD]
+[TD]9999[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]1[/TD]
+[/TR]
+[TR]
+[TD][B]EXP
+[/B][/TD]
+[TD]3[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Hi-Potion x1[/TD]
+[/TR]
+[TR]
+[TD][B]Steal Gil
+[/B][/TD]
+[TD]300[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Phoenix Down x1 100gil (Rare: Phoenix Down x2)[/TD]
+[/TR]
+[/TABLE]
+
+[B]+ Goon x2[/B]
+
+If you want, you can steal Budget Grenades from the two Goons. It is recommended you steal the High Potion from ???? as they aren't easy to purchase at this stage of the game. If you use a Budget Grenade, it will deal heavy damage to all 3. The fight isn't difficult, so you can easily just take out the two goons and then focus on using Rikku and Paine to attack in succession for chain damage. 
+
+[HR][/HR]
+Once the boss fight is complete, you will be chasing ???? through the Luca docks. Make sure you stop at the second dock and head to the left to find the "hiding" Moogle. If you speak with it, it will heal your HP. It's also necessary in order to achieve 100% game completion. The goons will keep coming, so if you have the extra time and HP, you can steal some Budget Grenades from them for one of the future dresspheres.
+
+Continue along until you witness a scene. You now can use Yuna in battle for the next Boss Fight.
+
+
+[HR][/HR]
+[CENTER][U]Boss Fight[/U]
+[/CENTER]
+  [TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]Logos
+[/B][/TD]
+[TD][B]Ormi
+[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]86
+[/TD]
+[TD]86[/TD]
+[/TR]
+[TR]
+[TD][B]MP
+[/B][/TD]
+[TD]18[/TD]
+[TD]18[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]1[/TD]
+[TD]1[/TD]
+[/TR]
+[TR]
+[TD][B]EXP
+[/B][/TD]
+[TD]3[/TD]
+[TD]3[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Silver Glasses x1[/TD]
+[TD]Iron Bangle x1[/TD]
+[/TR]
+[TR]
+[TD][B]Steal Gil
+[/B][/TD]
+[TD]200[/TD]
+[TD]200[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Potion x1 60gil (Rare: Phoenix Down x1)[/TD]
+[TD]Potion x1 60gil (Rare: Phoenix Down x1)[/TD]
+[/TR]
+[/TABLE]
+
+
+I recommend you steal the accessories from Logos and Ormi. Logos can occasionally use a Potion on him or Ormi and he attacks quicker, so it is recommended you take him out first, followed by Ormi. Once that fight is over, you will immediately be thrown in to your next boss fight. Leblanc will hand you back your garment grid along with the Songstress dressphere.
+
+[HR][/HR]
+[CENTER][U]Boss Fight[/U]
+[/CENTER]
+   [TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]LeBlanc[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]130
+[/TD]
+[/TR]
+[TR]
+[TD][B]MP
+[/B][/TD]
+[TD]101[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]2[/TD]
+[/TR]
+[TR]
+[TD][B]EXP
+[/B][/TD]
+[TD]8[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Silver Bracer x1[/TD]
+[/TR]
+[TR]
+[TD][B]Steal Gil
+[/B][/TD]
+[TD]500[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Hi-Potion x1 180gil (Rare: Phoenix Down x1)[/TD]
+[/TR]
+[/TABLE]
+
+This battle is mostly a tutorial for switching Dresspheres. Press the L1 button and make Yuna in to a Songstress, If you continuously cast Darkness Dance on Leblanc, she will miss most of her hits, making it a fairly easy battle. You can steal from her if you want. Once the battle is over, you will see a dancing Yuna scene and be brought aboard the Celsius Airship. 
+
+[HR][/HR]
+[B][COLOR=#ff0000]Celsius[/COLOR][/B]
+
+[U]Action Checklist:[/U]
+
+
+[LIST=1]
+[*]Speak to everyone on the bridge 
+[*]Speak to Shinra and ask to see the Journey's Start Treasure Sphere 
+[*]Ride the Elevator to the Cabin 
+[*]Speak to Barkeep and choose to Rest 
+[*]Return to the Bridge 
+[*]Select the Mt. Gagazet Mission 
+[/LIST]
+
+[U]100% Completion Guide Checklist - +1.8%:[/U]
+
+[LIST]
+[*]Speak with Brother, Paine, Rikku, Shinra, and Buddy on the Bridge 
+[*]Speak with the Barkeep in the Cabin 
+[*]Rest in the Cabin 
+[*]View the Treasure Sphere: Journey's Start by speaking to Shinra and checking the Treasure Spheres 
+[/LIST]
+
+[U]Item Checklist:[/U]
+[LIST]
+[*]Al Bhed Primer x4 
+[*]Phoenix Down x4 
+[*]Ether 
+[*]Remedy x3 
+[*]Potion x4 
+[*]Vanguard Garment Grid 
+[/LIST]
+[B]
+[U][COLOR=#ff0000]TIP[/COLOR][/U]
+[/B][I]In order to gain the 100% completion, make sure you rest in the Cabin at least once during every chapter.
+[/I]
+Once on the Bridge after the events, speak to everyone. Speaking to Brother will give you 3 Al Bhed Primers and speaking to Buddy will give you another. Speak with Rikku and Paine. After that, go speak to Shinra and select Treasure Spheres. View the Journey's Start treasure Sphere. If you want to receive the Vanguard Garment Grid, view the Garment Grid tutorial by also speaking with Shinra. It should be available under Shinra's Guide to Everything.
+
+When you've completed that, head down the corridor to the elevator and select the Engine Room. In there you will find 4 Phoenix Downs, an Ether, 3 Remedies, and 4 Potions.
+
+Afterwards, head back to the elevator and go to the Cabin. Speak to the Barkeep, and select Rest. Afterwards, you can speak to the Barkeep and buy any supplies you might need. 
+
+Head back towards the elevator and you will hear an announcement to report to the bridge.  Once you arrive, you will be sent to do a mission on Mt. Gagazet.
+
+[HR][/HR]
+[B][SIZE=3][COLOR=#0000ff]Mt. Gagazet Floating Ruins[/COLOR][/SIZE][/B]
+
+[U]Action Checklist:[/U]
+[LIST=1]
+[*]Jump across the ledges 
+[*]Push the Elevator button 
+[*]Complete the Boss Fights 
+[*]Beat Leblanc, Ormi, and Logos to the top 
+[*]Defeat Boris 
+[*]Obtain the treasure Sphere 
+[/LIST]
+
+[U]100% Completion Guide Checklist - +2.6%:[/U]
+
+[LIST]
+[*]Reach the top within the time limit 
+[*]Complete the Mission 
+[/LIST]
+
+[U]Item Checklist:[/U]
+[LIST]
+[*]Yellow Ring 
+[*]Elixir 
+[*]Mega-Phoenix 
+[*]White Ring 
+[*]Red Ring 
+[*]Star Pendant 
+[*]Muscle Belt 
+[*]Black Mage Dressphere 
+[/LIST]
+
+[CENTER][B][U]Bestiary[/U][/B]
+[/CENTER]
+[TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]Ahriman
+[/B][/TD]
+[TD][B]Bomb
+[/B][/TD]
+[TD][B]Divebeak
+[/B][/TD]
+[TD][B]Goon
+[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]99
+[/TD]
+[TD]140
+[/TD]
+[TD]10
+[/TD]
+[TD]13
+[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]1
+[/TD]
+[TD]1
+[/TD]
+[TD]1
+[/TD]
+[TD]1
+[/TD]
+[/TR]
+[TR]
+[TD][B]Gil
+[/B][/TD]
+[TD]20
+[/TD]
+[TD]30
+[/TD]
+[TD]12
+[/TD]
+[TD]30
+[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Potion x1
+[/TD]
+[TD]Potion x1
+[/TD]
+[TD]Potion x1
+[/TD]
+[TD]Budget Grenade x1
+[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Eye Drops x1
+[/TD]
+[TD]Potion x1
+[/TD]
+[TD]Antidote x1
+[/TD]
+[TD]Potion x1
+[/TD]
+[/TR]
+[/TABLE]
+[CENTER][TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD="align: left"][/TD]
+[TD="align: left"][B]Quadricorn
+[/B][/TD]
+[TD="align: left"][B]Recoil
+[/B][/TD]
+[TD="align: left"][B]She-Goon
+[/B][/TD]
+[TD="align: left"][B]Yell-Elemental
+[/B][/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]HP
+[/B][/TD]
+[TD="align: left"]188
+[/TD]
+[TD="align: left"]38
+[/TD]
+[TD="align: left"]7
+[/TD]
+[TD="align: left"]12
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]AP
+[/B][/TD]
+[TD="align: left"]1
+[/TD]
+[TD="align: left"]1
+[/TD]
+[TD="align: left"]1
+[/TD]
+[TD="align: left"]1
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Gil
+[/B][/TD]
+[TD="align: left"]13
+[/TD]
+[TD="align: left"]10
+[/TD]
+[TD="align: left"]30
+[/TD]
+[TD="align: left"]24
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Steal
+[/B][/TD]
+[TD="align: left"]Echo Screen x1
+[/TD]
+[TD="align: left"]Budget Grenade x1
+[/TD]
+[TD="align: left"]Budget Grenade x1
+[/TD]
+[TD="align: left"]Potion x1
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Drop
+[/B][/TD]
+[TD="align: left"]Potion x1
+[/TD]
+[TD="align: left"]Potion x1
+[/TD]
+[TD="align: left"]Potion x1
+[/TD]
+[TD="align: left"]Potion x1
+[/TD]
+[/TR]
+[/TABLE]
+
+[/CENTER]
+Follow the instructions to learn how to jump and climb by pressing O. Move to the place where you can see the treasure and drop down (don't jump). The treasure chest contains the Yellow Ring. Climb back up the ledge behind you and then jump across to the next ledge. Head down the stairs. After the scene, press the glowing button to activate the elevator. 
+
+When you reach the bottom, head to the left where you see the floating ledges in front of the waterfall and then climb up the wall to get a treasure that contains an Elixir. Head back the way you came from the ledges and head to the right from there until you climb up to a suspended road. Here, you will have another boss fight.
+
+[HR][/HR]
+[CENTER][U][B]Boss Fight[/B]
+[/U][/CENTER]
+[TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD][/TD]
+[TD][B]LeBlanc
+[/B][/TD]
+[TD][B]Logos
+[/B][/TD]
+[TD][B]Ormi
+[/B][/TD]
+[/TR]
+[TR]
+[TD][B]HP
+[/B][/TD]
+[TD]120
+[/TD]
+[TD]100
+[/TD]
+[TD]130
+[/TD]
+[/TR]
+[TR]
+[TD][B]MP
+[/B][/TD]
+[TD]320
+[/TD]
+[TD]25
+[/TD]
+[TD]10
+[/TD]
+[/TR]
+[TR]
+[TD][B]AP
+[/B][/TD]
+[TD]2
+[/TD]
+[TD]1
+[/TD]
+[TD]1
+[/TD]
+[/TR]
+[TR]
+[TD][B]Exp
+[/B][/TD]
+[TD]20
+[/TD]
+[TD]310
+[/TD]
+[TD]10
+[/TD]
+[/TR]
+[TR]
+[TD][B]Steal Gil
+[/B][/TD]
+[TD]700
+[/TD]
+[TD]280
+[/TD]
+[TD]280
+[/TD]
+[/TR]
+[TR]
+[TD][B]Steal
+[/B][/TD]
+[TD]Tiara x1
+[/TD]
+[TD]White Cape x1
+[/TD]
+[TD]Gauntlets x1
+[/TD]
+[/TR]
+[TR]
+[TD][B]Drop
+[/B][/TD]
+[TD]Hi-Potion x1 250gil (Rare: Hi-Potion x2)
+[/TD]
+[TD]Potion x1 80gil (Rare: Phoenix Down x1)
+[/TD]
+[TD]Potion x1 80gil (Rare: Phoenix Down x1)
+[/TD]
+[/TR]
+[/TABLE]
+[CENTER]
+[/CENTER]
+
+There are 3 accessories you can steal if you have a thief in your party. A good strategy is to have a Songstress use Darkness Dance to keep the enemy blinded so that they miss more often. Eliminate Leblanc first as she can damage the whole party and also aid the other two.
+
+Once the boss fight is complete, you will be set on a timer. You [I]can[/I] collect all of the items in the time given, but if you find yourself short of time, you can always return later on and claim the items you missed. 
+
+Run to the far end of the ruined road to find a Mega Phoenix. Afterwards, head to the doorway, ignoring the fallen columns that lead up. Once you reach the opening, Logos will set some Goons after you. The time stops during fights, but not while he's talking before hand, so skip the dialogue if you read faster than they speak.
+
+[CENTER] 
+[/CENTER]
+Once you enter the temple, move left or right and climb the ledge to find a switch. Activating the switches lowers a column in a connecting hallway, but this isn't necessary to complete the mission. Head north from where you entered and drop down in to a pit to find a White Ring. Climb out of the pit and jump across the platforms and head North. 
+
+If you want to, at the intersection, head right. If you pressed the switches, you will be able to access this area. Continue along until you find the chest containing the Red Ring.
+
+Head back to the intersection, but this time take the other path. If you chose to skip the last step, just head north at the intersection. Follow the road outside of the temple and Ormi will send more goons after you. After the fight, continue along until you climb up to a ledge. Follow the ledge to the end and you'll reach a chest containing a Star Pendant.
+
+[CENTER] 
+[/CENTER]
+Head back from the ledge and keep as close as you can to the side not against the wall. Eventually you will see the option to jump on to a different ledge. Jump over and continue along and you will soon see the timer stop. If you beat Leblanc to the top you will be able to claim the treasure chest where she is hanging which contains the Muscle Belt. Continue up the stairs.
+
+Once you reach the top, you will have another boss fight.
+
+
+
+[HR][/HR][CENTER]
+[B][U]Boss Fight[/U][/B]
+[TABLE="class: outer_border, width: 500, align: center"]
+[TR]
+[TD="align: left"][/TD]
+[TD="align: left"][B]Boris[/B]
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]HP
+[/B][/TD]
+[TD="align: left"]480
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]MP
+[/B][/TD]
+[TD="align: left"]0
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]AP
+[/B][/TD]
+[TD="align: left"]1
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Exp
+[/B][/TD]
+[TD="align: left"]26
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Steal Gil
+[/B][/TD]
+[TD="align: left"]700
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Steal
+[/B][/TD]
+[TD="align: left"]Remedy x1 (Rare: Remedy x2)
+[/TD]
+[/TR]
+[TR]
+[TD="align: left"][B]Drop
+[/B][/TD]
+[TD="align: left"]Star Pendant x1 300gil
+[/TD]
+[/TR]
+[/TABLE]
+
+
+[LEFT]This is the most difficult battle yet, but it's still pretty straightforward. He can hit for 50 HP sometimes, so if you want to, you can use a Songstress to cast Darkness Dance and get him to miss your party more often. The biggest threat is if he uses Sticky End, which casts Stop on your characters. In case they all get hit, try to keep your HP over 70 because you'll have to wait for the effect to wear off. A Remedy can also cure it if any of your characters don't get hit. 
+[/LEFT]
+ 
+[LEFT]Once this is complete, go to the end and grab the Dressphere, completing the mission. You will then return to the Celsius. 
+
+[/LEFT]
+[/CENTER]
+[HR][/HR][CENTER]
+[/CENTER]
+[B][SIZE=3][COLOR=#ff0000]Celsius[/COLOR][/SIZE][/B]
+
+ [U]Action Checklist:[/U]
+
+
+[LIST=1]
+[*]On the Bridge, speak to Brother and select "Comfort him." 
+[*]Speak to Shinra and view the contents of the Sphere you found. It will give you the Black Mage Dressphere. 
+[*]Speak with Buddy and select your next destination. 
+[/LIST]
+
+[U]100% Completion Guide Checklist - +0.6%:[/U]
+
+[LIST]
+[*]Speak to Brother and select "Comfort him." 
+[/LIST]
+
+[B][COLOR=#ff0000][U]TIP[/U][/COLOR]
+[/B][I]Completing Hotspots advances the game. If you want 100% completion, save the Hotspots for last.[/I]
+
+
+[HR][/HR]
+
+[I][COLOR=#dda0dd]I hope this layout is okay. I will colour code and add images next. - Locky[/COLOR][/I]
