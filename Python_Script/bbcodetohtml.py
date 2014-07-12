@@ -9,8 +9,8 @@ class Converter:
 		self.filename = inputFilename
 
 		###### CHANGE BB_TAGS ##########################
-		self.BB_TAGS = ["B", "I", "U", "TD","TR","LIST=1","LIST", "TABLE", "*","HR"]
-		self.HTML_TAGS = ["b", "i", "u","td","tr","ol","ul","table","li","hr"]
+		self.BB_TAGS = ["B", "I", "U", "TD","TR","LIST=1","LIST", "TABLE", "*","HR","URL"]
+		self.HTML_TAGS = ["b", "i", "u","td","tr","ol","ul","table","li","hr","a"]
 
 		##### BOOLS FOR STRUCTURES #####################
 		self.TABLE_EXISTS = inputTable[0]
@@ -147,7 +147,28 @@ class Converter:
 			if BBTag == "*":
 				line = line[:len(line)-1] + "</li> \n"
 		# print "["+BBTag+"]"
-		line = line.replace("["+BBTag+"]","<"+HTMLTag+">")
+		if BBTag == "URL":
+			line = line.replace("["+BBTag.lower(),"["+BBTag)
+			#The following code handles finding the closing bracket of a URL tag
+			#because using a replace function woudl replace all ] of other tags
+			#but it is impossible to predict how long the URL will be
+			lastTagFind = -1
+			while line.find("["+BBTag+"=") != -1:
+				print line.find("["+BBTag+"=")
+				findTagEnd = line.find("["+BBTag+"=")
+				while line[findTagEnd] != "]":
+					findTagEnd = findTagEnd + 1
+				re = list(line)
+				re[findTagEnd] = ">"
+				tagStart = lastTagFind = line.find("["+BBTag+"=")
+				re[tagStart] = "<a href"
+				re[tagStart+1] = "" 
+				re[tagStart+2] = "" 
+				re[tagStart+3] = ""
+				line = "".join(re)
+
+		else:
+			line = line.replace("["+BBTag+"]","<"+HTMLTag+">")
 		if BBTag != "*" and BBTag !=  "HR":
 			line = line.replace("[/"+BBTag+"]","</"+HTMLTag+">")
 		elif BBTag == "HR":
@@ -216,7 +237,7 @@ class Converter:
 	##########################################################################################
 
 	def endOfLineHandling(self,line):
-		print self.PREV_PARAGRAPH
+		#print self.PREV_PARAGRAPH
 		if "<li>"in line or  "<ul>" in line or "</ul>" in line or "<table>" in line or "</table>" in line or "<td>" in line or "<tr>" in line or "</td>" in line or "</tr>" in line:
 			return line
 		# if "<ul>" in line:
@@ -304,19 +325,19 @@ class Converter:
 			lineNum = lineNum + 1
 
 #Run this for no input tables, ordered lists, etc.
-# name = "storyffxv"
-# tableInfo = [False]
-# delim = ""
-# orderedlist = [False]
-# unorderedList = [False]
-# convert = Converter(name,tableInfo,delim, orderedlist, unorderedList)
-# convert.executeConversion()
+name = "joinstaff"
+tableInfo = [False]
+delim = ""
+orderedlist = [False]
+unorderedList = [False]
+convert = Converter(name,tableInfo,delim, orderedlist, unorderedList)
+convert.executeConversion()
 
 #Run this for most inputs
-name = "ffxiiiguide"
-tableInfo = [True, 4, 8]
-delim = ":"
-orderedlist = [False]
-unorderedList = [True, "treasures"]
-convert = Converter(name,tableInfo,delim,orderedlist, unorderedList)
-convert.executeConversion()
+# name = "ffxiiiguide"
+# tableInfo = [True, 4, 8]
+# delim = ":"
+# orderedlist = [False]
+# unorderedList = [True, "treasures"]
+# convert = Converter(name,tableInfo,delim,orderedlist, unorderedList)
+# convert.executeConversion()
